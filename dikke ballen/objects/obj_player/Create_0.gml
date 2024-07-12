@@ -1,4 +1,11 @@
 hsp = 0;
 vsp = 0;
 grv = 0.1;
-walksp = 4;
+walksp = 1;
+global._lives = 3
+_just_got_hit = false
+test = true
+flashing = false
+frames = game_get_speed(gamespeed_fps)
+image_alpha = 0.5
+again = false

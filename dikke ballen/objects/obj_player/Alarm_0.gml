@@ -1,0 +1,1 @@
+_just_got_hit = false

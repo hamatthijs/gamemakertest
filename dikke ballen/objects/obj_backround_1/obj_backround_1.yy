@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block",
-  "eventList":[],
+  "%Name":"obj_backround_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_block",
+  "name":"obj_backround_1",
   "overriddenProperties":[],
   "parent":{
     "name":"environment",
@@ -26,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_block",
-    "path":"sprites/spr_block/spr_block.yy",
+    "name":"spr_backround_1",
+    "path":"sprites/spr_backround_1/spr_backround_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
