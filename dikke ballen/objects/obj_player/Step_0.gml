@@ -35,19 +35,3 @@ if (place_meeting(x,y+vsp,obj_block))
 }
 y += vsp;
 
-// enemy collision
-if (place_meeting(x,y,obj_enemy_1)) && (_just_got_hit = false)
-{
-	if (global._lives = 1)
-	{
-	global._lives -= 1
-	//player_death()
-	}
-	if (global._lives > 1)
-	{
-		_just_got_hit = true;
-		alarm[0] = 3*frames; // cooldown until player can be hit again
-		alarm[1] = 0.125*frames; // make it noticable that player was hit
-		global._lives -= 1
-	}
-}

@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_1",
+  "%Name":"obj_coin",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy_1",
+  "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"entities",
-    "path":"folders/Objects/entities.yy",
+    "name":"consumables",
+    "path":"folders/Objects/consumables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_1",
-    "path":"sprites/spr_enemy_1/spr_enemy_1.yy",
+    "name":"spr_coin",
+    "path":"sprites/spr_coin/spr_coin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
