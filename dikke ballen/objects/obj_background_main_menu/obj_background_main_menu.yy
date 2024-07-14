@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_backround_1",
+  "%Name":"obj_background_main_menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_backround_1",
+  "name":"obj_background_main_menu",
   "overriddenProperties":[],
   "parent":{
     "name":"rooms",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_backround_1",
-    "path":"sprites/spr_backround_1/spr_backround_1.yy",
+    "name":"spr_background_main_menu",
+    "path":"sprites/spr_background_main_menu/spr_background_main_menu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

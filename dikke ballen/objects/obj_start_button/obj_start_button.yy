@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_backround_1",
+  "%Name":"obj_start_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_backround_1",
+  "name":"obj_start_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"rooms",
-    "path":"folders/Objects/environment/rooms.yy",
+    "name":"main menu",
+    "path":"folders/Objects/UI/main menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_backround_1",
-    "path":"sprites/spr_backround_1/spr_backround_1.yy",
+    "name":"spr_start_button",
+    "path":"sprites/spr_start_button/spr_start_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
